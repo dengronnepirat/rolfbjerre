@@ -1,0 +1,37 @@
+.navigation {
+	padding: {
+		top: $nav--padding-top;
+		bottom: $nav--padding-bottom;
+
+	}
+	box-shadow: $nav--box-shadow;
+
+}
+
+.logo-rb {
+	letter-spacing: 2px;
+	@extend .inline-block;
+	margin: {
+		left: -10px;
+	}
+	text-transform: uppercase;
+	font-weight: 600;
+
+	a {
+		color: #000;
+		text-decoration: none;
+
+		&:hover {
+			color: rgba(000, 000, 000, 0.4);
+
+		}
+	}
+
+}
+
+.main-nav {
+	.nav-item {
+		@extend .inline-block;
+	}
+
+}

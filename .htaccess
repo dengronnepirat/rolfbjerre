@@ -1,0 +1,40 @@
+# Clean / SEO Urls
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^([^.]+)$ $1.php [NC,L]
+
+# Force Download
+<Files *.zip>
+	ForceType application/octet-stream
+	Header set Content-Disposition attachment
+</Files>
+
+# Deny Access to backup files
+<FilesMatch "(\.(bak|config|dist|fla|inc|ini|log|psd|sh|sql|swp)|~)$">
+	## Apache 2.2
+	Order allow,deny
+	Deny from all
+	Satisfy All
+
+	## Apache 2.4
+	Require all denied
+</FilesMatch>
+
+# Deny Access to some files
+<FilesMatch "(\.(scss|md)|~)$">
+	## Apache 2.2
+	Order allow,deny
+	Deny from all
+	Satisfy All
+
+	## Apache 2.4
+	Require all denied
+</FilesMatch>
+
+# Disable Directory Browsing
+Options -Indexes
+
+# Remove ETags
+FileETag None
+
+# Custom Error
