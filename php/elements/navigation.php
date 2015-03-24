@@ -1,4 +1,4 @@
-		<nav class="navigation">
+		<nav id="navigation" class="navigation">
 			<div class="grid">
 				<div class="col-1-2">
 					<div class="content">
