@@ -3,7 +3,7 @@
   src="https://raw.githubusercontent.com/peterbrinck/rolfbjerre/master/img/rolf.jpg">
 </p>
 
-# Rolf Bjerre
+<h1 align="center">Rolf Bjerre</h1>
 Rolf Bjerre Open Source website.
 
 Rolf Bjerre - Ordfører for IT og Digitale Frihedsrettigheder
