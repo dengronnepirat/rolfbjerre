@@ -4,7 +4,6 @@
 </p>
 
 <h1 align="center">Rolf Bjerre</h1>
-Rolf Bjerre Open Source website.
 
 Rolf Bjerre - Ordfører for IT og Digitale Frihedsrettigheder
 
@@ -13,6 +12,8 @@ Rolf Bjerre - Ordfører for IT og Digitale Frihedsrettigheder
 
 
 <br><br>
-[Alternativet](http://alternativet.dk/rolf-bjerre/)<br>
-[Facebook](https://www.facebook.com/rolf.bjerre)<br>
-[Twitter](https://twitter.com/RolfBjerre)
+<p align="center">
+<a href="http://alternativet.dk/rolf-bjerre/">Alternativet</a><br>
+<a href="https://www.facebook.com/rolf.bjerre">Facebook</a><br>
+<a href="https://twitter.com/RolfBjerre">Twitter</a><br>
+</p>
