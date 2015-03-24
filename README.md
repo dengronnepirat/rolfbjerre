@@ -1,3 +1,8 @@
+<div style="text-align: center">
+  <img style="text-align: center" alt="Rolf Bjerre" title="Rolf Bjerre"
+  src="https://raw.githubusercontent.com/peterbrinck/rolfbjerre/master/img/rolf.jpg">
+</div>
+
 # Rolf Bjerre
 Rolf Bjerre Open Source website.
 
