@@ -369,6 +369,40 @@ body {
     .logo-rb a:hover {
       color: rgba(0, 0, 0, 0.4); }
 
+/* line 36, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
+.main-nav {
+  float: right; }
+  /* line 39, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
+  .main-nav .nav-item {
+    margin-left: 20px; }
+    /* line 46, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
+    .main-nav .nav-item:first-child {
+      margin-left: 0; }
+    /* line 53, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
+    .main-nav .nav-item a {
+      text-decoration: none;
+      position: relative;
+      color: #000;
+      padding-top: 10px;
+      padding-bottom: 14px; }
+      /* line 63, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
+      .main-nav .nav-item a:hover {
+        color: #000; }
+        /* line 66, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
+        .main-nav .nav-item a:hover:after {
+          width: 100%; }
+      /* line 73, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
+      .main-nav .nav-item a:after {
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 7px;
+        background-color: #0f0;
+        content: "";
+        transition: width 0.3s ease; }
+
 /* line 1, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/particles */
 #particles-canvas {
   max-width: 100vw;

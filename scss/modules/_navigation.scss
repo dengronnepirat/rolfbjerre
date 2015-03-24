@@ -34,8 +34,56 @@
 }
 
 .main-nav {
+	float: right;
+
 	.nav-item {
 		@extend .inline-block;
+		margin: {
+			left: $nav-item--margin-left;
+
+		}
+
+		&:first-child {
+			margin: {
+				left: 0;
+			}
+
+		}
+
+		a{
+			text-decoration: none;
+			position: relative;
+			color: #000;
+			padding: {
+				top: 10px;
+				bottom: 14px;
+
+			}
+
+			&:hover {
+				color: #000;
+
+				&:after {
+					width: 100%;
+
+				}
+
+			}
+
+			&:after {
+				display: block;
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				width: 0;
+				height: 7px;
+				background-color: #0f0;
+				content: "";
+				transition: width 0.3s ease;
+
+			}
+
+		}
 	}
 
 }
