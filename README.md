@@ -8,6 +8,6 @@ Rolf Bjerre - Ordfører for IT og Digitale Frihedsrettigheder
 
 
 <br><br>
-[Alternativet](http://alternativet.dk/rolf-bjerre/)
+[Alternativet](http://alternativet.dk/rolf-bjerre/)<br>
 [Facebook](https://www.facebook.com/rolf.bjerre)<br>
 [Twitter](https://twitter.com/RolfBjerre)
