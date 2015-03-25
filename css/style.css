@@ -406,6 +406,11 @@ body {
 /* line 1, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/particles */
 #particles-canvas {
   max-width: 100vw;
-  height: 100vh; }
+  height: 100vh;
+  background-color: #fff;
+  background-image: url("../img/Rolf-133_smaller.png");
+  background-size: 70%;
+  background-position: top center;
+  background-repeat: no-repeat; }
 
 /*# sourceMappingURL=style.css.map */

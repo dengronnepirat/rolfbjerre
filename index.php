@@ -44,7 +44,7 @@ require_once("php/global_variables.php");
 
 		<?php require_once("php/elements/navigation.php"); ?>
 		<div id="particles-canvas" class="particles">
-			
+
 
 		</div>
 
