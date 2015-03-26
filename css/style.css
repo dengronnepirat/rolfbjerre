@@ -1,3 +1,4 @@
+@import url("http://fonts.googleapis.com/css?family=Montserrat");
 /* line 1, C:/xampp/htdocs/projects/rolfbjerre/scss/base/reset */
 html {
   font-size: 62.5%; }
@@ -83,13 +84,18 @@ body {
   max-width: 1140px;
   margin: 0 auto;
   overflow: hidden; }
-  /* line 36, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+  /* line 37, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
   .grid:after {
     content: "";
     display: table;
     clear: both; }
 
-/* line 45, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+/* line 46, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+.grid-padding-leri, .grid {
+  padding-left: 20px;
+  padding-right: 20px; }
+
+/* line 55, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
 .grid-pad {
   padding-top: 20px;
   padding-left: 20px;
@@ -97,135 +103,135 @@ body {
   padding-right: 0px;
   /* grid-space to right: (grid-space-left - column-space) e.g. 20px-20px=0 */ }
 
-/* line 51, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+/* line 61, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
 .push-right {
   float: right; }
 
 /* Content Columns */
-/* line 57, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+/* line 67, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
 .col-1-1 {
   width: 100%; }
 
-/* line 60, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+/* line 70, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
 .col-2-3, .col-8-12 {
   width: 66.66%; }
 
-/* line 64, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+/* line 74, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
 .col-1-2, .col-6-12 {
   width: 50%; }
 
-/* line 68, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+/* line 78, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
 .col-1-3, .col-4-12 {
   width: 33.33%; }
 
-/* line 72, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+/* line 82, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
 .col-1-4, .col-3-12 {
   width: 25%; }
 
-/* line 76, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+/* line 86, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
 .col-1-5 {
   width: 20%; }
 
-/* line 80, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+/* line 90, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
 .col-1-6, .col-2-12 {
   width: 16.667%; }
 
-/* line 84, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+/* line 94, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
 .col-1-7 {
   width: 14.28%; }
 
-/* line 88, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+/* line 98, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
 .col-1-8 {
   width: 12.5%; }
 
-/* line 92, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+/* line 102, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
 .col-1-9 {
   width: 11.1%; }
 
-/* line 96, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+/* line 106, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
 .col-1-10 {
   width: 10%; }
 
-/* line 100, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+/* line 110, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
 .col-1-11 {
   width: 9.09%; }
 
-/* line 104, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+/* line 114, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
 .col-1-12 {
   width: 8.33%; }
 
 /* Layout Columns */
-/* line 110, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+/* line 120, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
 .col-11-12 {
   width: 91.66%; }
 
-/* line 114, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+/* line 124, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
 .col-10-12 {
   width: 83.333%; }
 
-/* line 118, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+/* line 128, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
 .col-9-12 {
   width: 75%; }
 
-/* line 122, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+/* line 132, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
 .col-5-12 {
   width: 41.66%; }
 
-/* line 126, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+/* line 136, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
 .col-7-12 {
   width: 58.33%; }
 
 /* Pushing blocks */
-/* line 134, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+/* line 144, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
 .push-2-3, .push-8-12 {
   margin-left: 66.66%; }
 
-/* line 138, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+/* line 148, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
 .push-1-2, .push-6-12 {
   margin-left: 50%; }
 
-/* line 142, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+/* line 152, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
 .push-1-3, .push-4-12 {
   margin-left: 33.33%; }
 
-/* line 146, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+/* line 156, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
 .push-1-4, .push-3-12 {
   margin-left: 25%; }
 
-/* line 150, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+/* line 160, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
 .push-1-5 {
   margin-left: 20%; }
 
-/* line 154, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+/* line 164, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
 .push-1-6, .push-2-12 {
   margin-left: 16.667%; }
 
-/* line 158, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+/* line 168, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
 .push-1-7 {
   margin-left: 14.28%; }
 
-/* line 162, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+/* line 172, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
 .push-1-8 {
   margin-left: 12.5%; }
 
-/* line 166, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+/* line 176, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
 .push-1-9 {
   margin-left: 11.1%; }
 
-/* line 170, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+/* line 180, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
 .push-1-10 {
   margin-left: 10%; }
 
-/* line 174, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+/* line 184, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
 .push-1-11 {
   margin-left: 9.09%; }
 
-/* line 178, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+/* line 188, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
 .push-1-12 {
   margin-left: 8.33%; }
 
-@media handheld, only screen and (max-width: 767px) {
-  /* line 184, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+@media handheld, only screen and (max-width: 1024px) {
+  /* line 194, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
   .grid {
     width: 100%;
     min-width: 0;
@@ -236,7 +242,7 @@ body {
     padding-right: 10px;
     /* grid-space to right: (grid-space-left - column-space) e.g. 20px-10px=10px */ }
 
-  /* line 193, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+  /* line 203, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
   [class*='col-'] {
     width: auto;
     float: none;
@@ -249,7 +255,7 @@ body {
     /* column-space */ }
 
   /* Mobile Layout */
-  /* line 207, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+  /* line 217, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
   [class*='mobile-col-'] {
     float: left;
     margin-left: 0px;
@@ -261,84 +267,89 @@ body {
     /* column-space */
     padding-bottom: 0px; }
 
-  /* line 218, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+  /* line 228, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
   .mobile-col-1-1 {
     width: 100%; }
 
-  /* line 221, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+  /* line 231, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
   .mobile-col-2-3, .mobile-col-8-12 {
     width: 66.66%; }
 
-  /* line 225, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+  /* line 235, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
   .mobile-col-1-2, .mobile-col-6-12 {
     width: 50%; }
 
-  /* line 229, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+  /* line 239, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
   .mobile-col-1-3, .mobile-col-4-12 {
     width: 33.33%; }
 
-  /* line 233, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+  /* line 243, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
   .mobile-col-1-4, .mobile-col-3-12 {
     width: 25%; }
 
-  /* line 237, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+  /* line 247, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
   .mobile-col-1-5 {
     width: 20%; }
 
-  /* line 241, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+  /* line 251, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
   .mobile-col-1-6, .mobile-col-2-12 {
     width: 16.667%; }
 
-  /* line 245, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+  /* line 255, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
   .mobile-col-1-7 {
     width: 14.28%; }
 
-  /* line 249, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+  /* line 259, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
   .mobile-col-1-8 {
     width: 12.5%; }
 
-  /* line 253, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+  /* line 263, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
   .mobile-col-1-9 {
     width: 11.1%; }
 
-  /* line 257, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+  /* line 267, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
   .mobile-col-1-10 {
     width: 10%; }
 
-  /* line 261, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+  /* line 271, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
   .mobile-col-1-11 {
     width: 9.09%; }
 
-  /* line 265, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+  /* line 275, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
   .mobile-col-1-12 {
     width: 8.33%; }
 
   /* Layout Columns */
-  /* line 271, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+  /* line 281, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
   .mobile-col-11-12 {
     width: 91.66%; }
 
-  /* line 275, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+  /* line 285, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
   .mobile-col-10-12 {
     width: 83.333%; }
 
-  /* line 279, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+  /* line 289, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
   .mobile-col-9-12 {
     width: 75%; }
 
-  /* line 283, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+  /* line 293, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
   .mobile-col-5-12 {
     width: 41.66%; }
 
-  /* line 287, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+  /* line 297, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
   .mobile-col-7-12 {
     width: 58.33%; }
 
-  /* line 291, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+  /* line 301, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
   .hide-on-mobile {
     display: none !important;
     width: 0;
     height: 0; }
+
+  /* line 309, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/grid */
+  .navigation {
+    position: static !important;
+    margin-bottom: 30px; }
  }
 
 /* line 1, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/custom */
@@ -358,40 +369,41 @@ body {
 /* line 15, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
 .logo-rb {
   letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
   margin-left: -10px;
   text-transform: uppercase;
   font-weight: 600; }
-  /* line 24, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
+  /* line 25, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
   .logo-rb a {
     color: #000;
     text-decoration: none; }
-    /* line 28, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
+    /* line 29, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
     .logo-rb a:hover {
       color: rgba(0, 0, 0, 0.4); }
 
-/* line 36, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
+/* line 37, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
 .main-nav {
   float: right; }
-  /* line 39, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
+  /* line 40, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
   .main-nav .nav-item {
     margin-left: 20px; }
-    /* line 46, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
+    /* line 47, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
     .main-nav .nav-item:first-child {
       margin-left: 0; }
-    /* line 53, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
+    /* line 54, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
     .main-nav .nav-item a {
       text-decoration: none;
       position: relative;
       color: #000;
       padding-top: 10px;
       padding-bottom: 14px; }
-      /* line 63, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
+      /* line 64, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
       .main-nav .nav-item a:hover {
         color: #000; }
-        /* line 66, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
+        /* line 67, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
         .main-nav .nav-item a:hover:after {
           width: 100%; }
-      /* line 73, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
+      /* line 74, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
       .main-nav .nav-item a:after {
         display: block;
         position: absolute;
@@ -408,9 +420,15 @@ body {
   max-width: 100vw;
   height: 100vh;
   background-color: #fff;
-  background-image: url("../img/Rolf-133_smaller.png");
-  background-size: 70%;
-  background-position: top center;
-  background-repeat: no-repeat; }
+  /*	background: {
+		color: #fff;
+		image: url("../img/Rolf-133_smaller.png");
+		size: 70%;
+		position: top center;
+		repeat: no-repeat;
+
+	} */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 40px; }
 
 /*# sourceMappingURL=style.css.map */

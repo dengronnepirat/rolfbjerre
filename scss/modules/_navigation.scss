@@ -15,6 +15,7 @@
 .logo-rb {
 	letter-spacing: 2px;
 	@extend .inline-block;
+	font-family: $montserrat;
 	margin: {
 		left: -10px;
 	}

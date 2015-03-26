@@ -32,6 +32,7 @@ body {
 	max-width: $maxWidth;
 	margin: 0 auto;
 	overflow: hidden;
+	@extend .grid-padding-leri;
 
 	&:after {
 		content: "";
@@ -39,6 +40,15 @@ body {
 		clear: both;
 	}
 
+
+}
+
+.grid-padding-leri {
+	padding: {
+		left: $grid--padding-left;
+		right: $grid--padding-right;
+
+	}
 
 }
 
@@ -180,7 +190,7 @@ body {
 }
 
 
-@media handheld, only screen and (max-width: 767px) {
+@media handheld, only screen and (max-width: 1024px) {
 	.grid {
 		width: 100%;
 		min-width: 0;
@@ -287,10 +297,22 @@ body {
 	.mobile-col-7-12 {
 		width: 58.33%
 	}
-	
+
 	.hide-on-mobile {
 		display: none !important;
 		width: 0;
 		height: 0;
 	}
+
+
+
+	.navigation {
+		position: static !important;
+		margin: {
+			bottom: $nav-on-mobile--margin-bottom;
+
+		}
+
+	}
+
 }
