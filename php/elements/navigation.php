@@ -13,7 +13,7 @@
 								</defs>
 								<path d="M218.186,-0.000 C266.119,0.149 314.067,0.299 362.000,0.448 C289.428,200.129 216.834,399.870 144.262,599.552 C96.180,599.701 48.083,599.851 -0.000,600.000 C72.721,400.020 145.464,199.980 218.186,-0.000 Z" id="path-1" class="cls-2" fill-rule="evenodd"/>
 							</svg>
-							<h1 class="logo-rb"><a href="index.php">Rolf Bjerre</a></h1>
+							<h1 class="logo-rb"><a href="home">Rolf Bjerre</a></h1>
 						</div>
 					</div>
 				</div>
