@@ -52,7 +52,7 @@ require_once("php/facebook_sdk.php"); /** THIS PHP FILE IS REMOVED FROM THE GITH
 			<div class="grid">
 				<div class="col-8-12">
 					<div class="content">
-						<h1>Velkommen</h1>
+						<h1><a id="velkommen">Velkommen</a></h1>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima odit ex, atque deleniti blanditiis, iste, possimus, ullam optio in tempore dolorum aliquid dignissimos ad voluptates quos reiciendis! Culpa quibusdam ex ut velit itaque quis molestiae minus vero, natus perferendis laudantium amet reiciendis ullam, harum officiis! Rerum in omnis, nostrum soluta repellat pariatur, possimus ut delectus. Explicabo culpa, ratione, voluptatum placeat sed, perferendis veniam totam quam, odit fugiat voluptate! Molestias odit fugit mollitia, cum assumenda asperiores necessitatibus adipisci quia vero corporis dignissimos molestiae expedita numquam maiores voluptatibus est earum ipsum saepe ut! Voluptatum adipisci quis possimus, minus eaque quod, neque nostrum culpa explicabo quo nulla. Facilis, dolore. Voluptatum tempore commodi at impedit ut repellendus tempora distinctio, excepturi suscipit, officiis fugit, hic neque nisi. Rerum dicta vitae distinctio officia possimus hic quasi, eius similique minus, laboriosam numquam ex nisi ipsam ducimus error nesciunt repudiandae reiciendis facilis. Dolor error ex deleniti natus nulla, tenetur harum officia eius! Ad similique, dignissimos quibusdam placeat aut!</p>
 
 					</div>

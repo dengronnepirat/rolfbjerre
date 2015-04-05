@@ -364,46 +364,47 @@ body {
   background-color: #fff;
   position: fixed;
   left: 0;
-  right: 0; }
+  right: 0;
+  z-index: 999999; }
 
-/* line 15, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
+/* line 16, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
 .logo-rb {
   letter-spacing: 2px;
   font-family: 'Montserrat', sans-serif;
   margin-left: -10px;
   text-transform: uppercase;
   font-weight: 600; }
-  /* line 25, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
+  /* line 26, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
   .logo-rb a {
     color: #000;
     text-decoration: none; }
-    /* line 29, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
+    /* line 30, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
     .logo-rb a:hover {
       color: rgba(0, 0, 0, 0.4); }
 
-/* line 37, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
+/* line 38, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
 .main-nav {
   float: right; }
-  /* line 40, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
+  /* line 41, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
   .main-nav .nav-item {
     margin-left: 20px; }
-    /* line 47, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
+    /* line 48, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
     .main-nav .nav-item:first-child {
       margin-left: 0; }
-    /* line 54, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
+    /* line 55, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
     .main-nav .nav-item a {
       text-decoration: none;
       position: relative;
       color: #000;
       padding-top: 10px;
       padding-bottom: 14px; }
-      /* line 64, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
+      /* line 65, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
       .main-nav .nav-item a:hover {
         color: #000; }
-        /* line 67, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
+        /* line 68, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
         .main-nav .nav-item a:hover:after {
           width: 100%; }
-      /* line 74, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
+      /* line 75, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
       .main-nav .nav-item a:after {
         display: block;
         position: absolute;

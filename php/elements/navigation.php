@@ -21,7 +21,7 @@
 				<div class="col-1-2">
 					<div class="content">
 						<ul class="main-nav" id="main-nav">
-							<li class="nav-item" id="nav-item1"><a href="javascript:void(0)">Lorem</a></li>
+							<li class="nav-item" id="nav-item1"><a href="#velkommen">Velkommen</a></li>
 							<li class="nav-item" id="nav-item2"><a href="javascript:void(0)">Ipsum</a></li>
 							<li class="nav-item" id="nav-item3"><a href="javascript:void(0)">Dolor</a></li>
 							<li class="nav-item" id="nav-item3"><a href="javascript:void(0)">Open Source</a></li>
