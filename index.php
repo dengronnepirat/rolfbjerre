@@ -1,4 +1,5 @@
 <?php
+require_once("admin/bootstrap.php");
 require_once("php/functions.php");
 require_once("php/global_variables.php");
 require_once("php/facebook_sdk.php"); /** THIS PHP FILE IS REMOVED FROM THE GITHUB REPO FOR SECURITY REASONS */
@@ -45,30 +46,21 @@ require_once("php/facebook_sdk.php"); /** THIS PHP FILE IS REMOVED FROM THE GITH
 
 		<?php require_once("php/elements/navigation.php"); ?>
 		<div id="particles-canvas" class="particles hide-on-mobile">
+			<div class="particle-info-box">
+				<h1>Open Source er vejen frem!</h1>
 
+			</div>
 
 		</div>
 
 			<div class="grid">
 				<div class="col-8-12">
 					<div class="content">
-						<h1><a id="velkommen">Velkommen</a></h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima odit ex, atque deleniti blanditiis, iste, possimus, ullam optio in tempore dolorum aliquid dignissimos ad voluptates quos reiciendis! Culpa quibusdam ex ut velit itaque quis molestiae minus vero, natus perferendis laudantium amet reiciendis ullam, harum officiis! Rerum in omnis, nostrum soluta repellat pariatur, possimus ut delectus. Explicabo culpa, ratione, voluptatum placeat sed, perferendis veniam totam quam, odit fugiat voluptate! Molestias odit fugit mollitia, cum assumenda asperiores necessitatibus adipisci quia vero corporis dignissimos molestiae expedita numquam maiores voluptatibus est earum ipsum saepe ut! Voluptatum adipisci quis possimus, minus eaque quod, neque nostrum culpa explicabo quo nulla. Facilis, dolore. Voluptatum tempore commodi at impedit ut repellendus tempora distinctio, excepturi suscipit, officiis fugit, hic neque nisi. Rerum dicta vitae distinctio officia possimus hic quasi, eius similique minus, laboriosam numquam ex nisi ipsam ducimus error nesciunt repudiandae reiciendis facilis. Dolor error ex deleniti natus nulla, tenetur harum officia eius! Ad similique, dignissimos quibusdam placeat aut!</p>
-
+						<?php region('Forside Tekst') ?>
 					</div>
 				</div>
 				<div class="col-4-12 hide-on-mobile">
-					<div class="content">
-						<h1>Socialt</h1>
-						<div class="facebook-feed">
-							<div class="fb-page" data-href="https://www.facebook.com/rolf.bjerre" data-width="500" data-hide-cover="true" data-show-facepile="true" data-show-posts="true"></div>
-						</div>
-
-						<div class="twitter-feed">
-							<a class="twitter-timeline"  href="https://twitter.com/RolfBjerre" data-widget-id="581151553777696768">Tweets by @RolfBjerre</a>
-							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-						</div>
-					</div>
+					<?php require_once("php/elements/social_feeds.php"); ?>
 				</div>
 			</div>
 
@@ -86,4 +78,4 @@ require_once("php/facebook_sdk.php"); /** THIS PHP FILE IS REMOVED FROM THE GITH
 
 
 	</body>
-</html>z
+</html>

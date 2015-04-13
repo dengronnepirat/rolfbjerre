@@ -356,6 +356,10 @@ body {
 .inline-block, .logo-rb, .main-nav .nav-item {
   display: inline-block; }
 
+/* line 6, C:/xampp/htdocs/projects/rolfbjerre/scss/layout/custom */
+a {
+  color: #0f0; }
+
 /* line 1, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/navigation */
 .navigation {
   padding-top: 30px;
@@ -421,16 +425,27 @@ body {
   max-width: 100vw;
   height: 100vh;
   background-color: #fff;
-  /*	background: {
-		color: #fff;
-		image: url("../img/Rolf-133_smaller.png");
-		size: 70%;
-		position: top center;
-		repeat: no-repeat;
-
-	} */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  overflow: hidden; }
+
+/* line 15, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/particles */
+.particle-info-box {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin-top: -50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 40vw;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3); }
 
 /* line 1, C:/xampp/htdocs/projects/rolfbjerre/scss/modules/social-feeds */
 .facebook-feed {
