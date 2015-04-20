@@ -21,8 +21,8 @@
 				<div class="col-1-2">
 					<div class="content">
 						<ul class="main-nav" id="main-nav">
-							<li class="nav-item" id="nav-item1"><a href="#forside">Forside</a></li>
-							<li class="nav-item" id="nav-item3"><a href="javascript:void(0)">Blog</a></li>
+							<li class="nav-item" id="nav-item1"><a href="/">Forside</a></li>
+							<li class="nav-item" id="nav-item1"><a href="maerkesager">Mærkesager</a></li>
 						</ul>
 					</div>
 				</div>
