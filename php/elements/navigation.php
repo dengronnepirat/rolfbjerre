@@ -23,6 +23,7 @@
 						<ul class="main-nav" id="main-nav">
 							<li class="nav-item" id="nav-item1"><a href="/">Forside</a></li>
 							<li class="nav-item" id="nav-item1"><a href="maerkesager">Mærkesager</a></li>
+							<li class="nav-item" id="nav-item1"><a href="om-rolf">Om Rolf</a></li>
 						</ul>
 					</div>
 				</div>
