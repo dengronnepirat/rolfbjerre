@@ -32,7 +32,7 @@ require_once("php/facebook_sdk.php"); /** THIS PHP FILE IS REMOVED FROM THE GITH
 	<head>
 		<meta charset="utf-8">
 		<title>Rolf Bjerre</title>
-		<meta name="description" content="Rolf Bjerre - Odføre for IT og digitale frihedsrettigheder!">
+		<meta name="description" content="Rolf Bjerre - Ordføre for IT og digitale frihedsrettigheder!">
 		<link href="img/favicon.ico" rel="icon" type="image/x-icon" />
 
 
