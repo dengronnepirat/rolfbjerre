@@ -1,4 +1,7 @@
 <meta charset="utf-8">
+
+## Jeg vil meget snart ændre på hele fil strukturen, og opdatere rigtig meget!
+
 <p align="center">
   <img style="text-align: center" align="center" alt="Rolf Bjerre" title="Rolf Bjerre"
   src="https://raw.githubusercontent.com/peterbrinck/rolfbjerre/master/img/rolf.jpg">
