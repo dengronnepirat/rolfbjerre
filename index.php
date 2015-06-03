@@ -39,17 +39,6 @@ $app->bind("/maerkesager", function() use($app, $baseVars) {
 });
 
 
-$app->bind("/nieuws/:title_slug", function($params) use($app, $baseVars) {
-
-	$post = collection('Nieuws')->findOne(["title_slug"=>$params['title_slug']]);
-	$pageTitle = $post['title'];
-
-	return $app->render('views/article.php with template/template.php',  array_merge($baseVars, [
-		'pageTitle' => $pageTitle,
-		'post' => $post
-	]));
-});
-
 
 $app->run();
 
