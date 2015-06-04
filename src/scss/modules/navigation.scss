@@ -1,0 +1,178 @@
+@for $i from 1 through 9 {
+	.rb-navbar#{$i} {
+
+	}
+
+}
+
+.rb-navbar {
+	background-color: $navbar--bg;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	position: relative;
+	z-index: 9999;
+
+}
+
+.rb-navbar-nav {
+	height: $navbar--line-height;
+	line-height: $navbar--line-height;
+
+	li:hover, li:focus, li:active {
+		a {
+			background-color: transparent;
+			color: $navbar--color;
+		}
+	}
+
+	li {
+		margin: {
+			left: 60px;
+
+		}
+
+		&:first-child {
+			margin: {
+				left: 0;
+
+			}
+
+		}
+
+		&:last-child {
+			margin-right: 15px;
+
+		}
+
+	}
+
+	.rb-navbar-item a {
+		font-size: $navbar--link-size;
+		position: relative;
+		color: $navbar--color;
+		display: inline;
+		height: auto;
+		line-height: $navbar--line-height;
+		padding: 0;
+		padding: {
+			bottom: $navbar--link-padding-bottom;
+			top: $navbar--link-padding-top;
+
+		}
+		transition: ease all 0.3s;
+
+		&:hover {
+			padding: {
+				bottom: $navbar--link-padding-bottom;
+				top: $navbar--link-padding-top;
+
+			}
+			background-color: transparent;
+
+			&:after {
+				width: 100%;
+
+			}
+
+		}
+
+		&:after {
+			display: block;
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			width: 0;
+			height: $navbar--link-underline;
+			background-color: $alternativet--green;
+			content: "";
+			transition: width 0.3s ease;
+
+		}
+
+	}
+
+	.rb-navbar-toggle a {
+		font-size: $navbar--link-size;
+		position: relative;
+		color: $navbar--color;
+		display: inline;
+		height: auto;
+		line-height: $navbar--line-height;
+		padding: 0;
+		padding: {
+			bottom: $navbar--link-padding-bottom;
+			top: $navbar--link-padding-top;
+
+		}
+
+		&:hover {
+			padding: {
+				bottom: $navbar--link-padding-bottom;
+				top: $navbar--link-padding-top;
+
+			}
+			background-color: transparent;
+			color: rgba($navbar--color, 0.5);
+		}
+
+	}
+
+}
+
+.rb-navbar-brand {
+	font-family: $mont;
+	line-height: $navbar--line-height;
+	color: $navbar--color;
+	margin: 0;
+	font-size: $navbar--logo-size;
+	border-bottom: 1px solid transparent;
+	transition: color ease 0.1s;
+
+	&:hover, &:active, &:focus {
+		color: rgba($navbar--color, 0.5);
+
+	}
+
+}
+
+.rb-navbar-sticky {
+	.rb-navbar-brand {
+		line-height: $navbar--line-height--sticky;
+		font-size: $navbar--logo-size--sticky;
+
+	}
+
+	.rb-navbar-nav {
+		height: $navbar--line-height--sticky;
+		line-height: $navbar--line-height--sticky;
+
+		li a {
+			font-size: $navbar--link-size--sticky;
+			line-height: $navbar--line-height--sticky;
+			padding: {
+					bottom: $navbar--link-padding-bottom--sticky;
+					top: $navbar--link-padding-top--sticky;
+
+				}
+
+			&:hover {
+				padding: {
+					bottom: $navbar--link-padding-bottom--sticky;
+					top: $navbar--link-padding-top--sticky;
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+.rb-offcanvas {
+	background: {
+		image: $navbar--mobile-bg;
+	}
+	box-shadow: 0 0 10px rgba(000, 000, 000, 0.5);
+
+}

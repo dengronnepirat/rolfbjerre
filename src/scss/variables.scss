@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700");
+$mont: 'Montserrat', sans-serif;
+$open-sans: 'Open Sans', sans-serif;
+
+
+$body-bg: #fff;
+
+
+$alternativet--green: #0f0;
+
+$navbar--bg: #fff;
+
+$navbar--color: #000;
+$navbar--line-height: 100px;
+$navbar--line-height--sticky: 60px;
+
+$navbar--logo-size: 24px;
+$navbar--logo-size--sticky: 18px;
+
+$navbar--link-size: 16px;
+$navbar--link-size--sticky: 14px;
+
+$navbar--link-padding-top: 7px;
+$navbar--link-padding-bottom: 10px;
+
+$navbar--link-padding-top--sticky: 4px;
+$navbar--link-padding-bottom--sticky: $navbar--link-padding-top--sticky;
+
+$navbar--link-underline: 3px;
+
+$navbar--mobile-bg: url("/media/theme/mobile_menu.png");
+
+$particles--height: 89vh;
+$particles--background: url("/media/theme/transp_bg.png");
+
+
+$accordion--content-border: 1px solid rgba($alternativet--green, 0.5);

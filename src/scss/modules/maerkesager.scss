@@ -1,0 +1,50 @@
+.rb-accordion {
+
+	.uk-accordion-title {
+		border: {
+			top: 1px solid rgba($alternativet--green, 0.3);
+			left: 1px solid rgba($alternativet--green, 0.3);
+			right: 1px solid rgba($alternativet--green, 0.3);
+			bottom: 1px solid rgba($alternativet--green, 0.3);
+		}
+		background: #fff;
+
+		&:hover {
+			background: $alternativet--green;
+			color: #fff;
+
+		}
+
+	}
+
+	.uk-accordion-content {
+		border: {
+			left: $accordion--content-border;
+			right: $accordion--content-border;
+			bottom: $accordion--content-border;
+		}
+
+	}
+
+}
+
+.rb-maerkesager-minus {
+	background: $alternativet--green !important;
+	color: #fff;
+
+	&:before {
+		font-family: FontAwesome;
+		font-weight: 100;
+		font-style: normal;
+		font-size: 14px;
+		display: inline-block;
+		text-decoration: inherit;
+		content: "\f068";
+		margin: {
+			right: 15px;
+		}
+
+
+	}
+
+}
