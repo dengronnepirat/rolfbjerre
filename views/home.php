@@ -28,50 +28,7 @@
 
 <div class="uk-container uk-container-center uk-margin-top">
 
-	<div class="uk-slidenav-position uk-hidden-small fucking-awesome-shadow rb-facts-slide" data-uk-slideshow="{autoplay: true, autoplayInterval: 10000}">
-		<ul class="uk-slideshow uk-overlay-active">
-			<li>
-				<img src="/media/theme/rolf_slide.jpg" alt="">
-				<div class="uk-overlay-panel uk-overlay-fade uk-flex uk-flex-center uk-flex-middle uk-text-center">
-					<div class="uk-grid">
-						<div class="uk-width-1-3 uk-push-1-2 rb-text-default">
-							<h3>Hvem er Rolf Bjerre?</h3>
-							<hr>
-							<p>
-								Jeg har et ønske om at være en politiker, som ikke-bestemmer over dig. Jeg vil ikke være magthaver, jeg vil være din demokratisk valgte repræsentant.
-								<br><br>
-								Jeg ønsker at nedlægge det parallelsamfund som Folketinget har udviklet sig til og genopbygge et Folketing som folk oplever som værende deres, tæt på dem, hver dag.
-								<br><br>
-								Mit politiske ståsted er rummeligt, da jeg ønsker bidrage til brede, langsigtede løsning. At vi både hylder "alle er alles lykkesmed", som en rød tråd gennem vores samfund, og "hver menneske sin lykkesmed", som den blå tråd.
-							</p>
-
-						</div>
-					</div>
-				</div>
-			</li>
-			<li>
-				<img src="/media/theme/rolf_slide.jpg" alt="">
-				<div class="uk-overlay-panel uk-overlay-fade uk-flex uk-flex-center uk-flex-middle uk-text-center">
-					<div class="uk-grid">
-						<div class="uk-width-1-3 uk-push-1-2 rb-text-default">
-							<h3>Og hvad skal vi bruge det til?</h3>
-							<hr>
-							<p>
-								Open Source vil som rygrad i vores IT infrastruktur sikre at alle får adgang til den information de er berettiget til. Brugen af Open Source vil samtidig sikre at infrastrukturen er gennemskuelig i sin opbygning og bestanddele, så alle kan teste stabilitet, funktionalitet, sikkerhed og beskyttelse af vores pirvatliv.
-							</p>
-
-						</div>
-					</div>
-				</div>
-			</li>
-		</ul>
-		<a href="" class="uk-slidenav uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
-		<a href="" class="uk-slidenav uk-slidenav-next" data-uk-slideshow-item="next"></a>
-		<ul class="uk-dotnav uk-position-bottom uk-flex-center rb-text-default">
-			<li data-uk-slideshow-item="0"><a href=""></a></li>
-			<li data-uk-slideshow-item="1"><a href=""></a></li>
-		</ul>
-	</div>
+	<?php region('Slideshow Facts'); ?>
 
 
 	<div class="uk-grid uk-margin-large-top">
