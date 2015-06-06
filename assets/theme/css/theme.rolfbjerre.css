@@ -232,6 +232,14 @@ h6 {
   box-shadow: 0 1px 2px rgba(114, 121, 135, 0.25), 0 8px 14px rgba(114, 121, 135, 0.1) !important;
 }
 
+.rb-text-green {
+  color: #0f0 !important;
+}
+
+.rb-text-default {
+  color: #444 !important;
+}
+
 .rb-quick-circle {
   background-color: #00cc00;
   border-radius: 50%;

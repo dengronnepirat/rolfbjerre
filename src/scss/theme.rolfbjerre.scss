@@ -37,6 +37,16 @@ body {
 
 }
 
+.rb-text-green {
+	color: $alternativet--green !important;
+
+}
+
+.rb-text-default {
+	color: #444 !important;
+
+}
+
 .rb-quick-circle {
 	background-color: darken($alternativet--green, 10);
 	border-radius: 50%;

@@ -28,13 +28,13 @@
 
 <div class="uk-container uk-container-center uk-margin-top">
 
-	<div class="uk-slidenav-position uk-hidden-small fucking-awesome-shadow" data-uk-slideshow="{autoplay: true, autoplayInterval: 10000}">
+	<div class="uk-slidenav-position uk-hidden-small fucking-awesome-shadow rb-facts-slide" data-uk-slideshow="{autoplay: true, autoplayInterval: 10000}">
 		<ul class="uk-slideshow uk-overlay-active">
 			<li>
 				<img src="/media/theme/rolf_slide.jpg" alt="">
-				<div class="uk-overlay-panel uk-overlay-background uk-overlay-fade uk-flex uk-flex-center uk-flex-middle uk-text-center">
+				<div class="uk-overlay-panel uk-overlay-fade uk-flex uk-flex-center uk-flex-middle uk-text-center">
 					<div class="uk-grid">
-						<div class="uk-width-1-3 uk-push-1-2">
+						<div class="uk-width-1-3 uk-push-1-2 rb-text-default">
 							<h3>Hvem er Rolf Bjerre?</h3>
 							<hr>
 							<p>
@@ -51,9 +51,9 @@
 			</li>
 			<li>
 				<img src="/media/theme/rolf_slide.jpg" alt="">
-				<div class="uk-overlay-panel uk-overlay-background uk-overlay-fade uk-flex uk-flex-center uk-flex-middle uk-text-center">
+				<div class="uk-overlay-panel uk-overlay-fade uk-flex uk-flex-center uk-flex-middle uk-text-center">
 					<div class="uk-grid">
-						<div class="uk-width-1-3 uk-push-1-2">
+						<div class="uk-width-1-3 uk-push-1-2 rb-text-default">
 							<h3>Og hvad skal vi bruge det til?</h3>
 							<hr>
 							<p>
@@ -65,8 +65,12 @@
 				</div>
 			</li>
 		</ul>
-		<a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
-		<a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"></a>
+		<a href="" class="uk-slidenav uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
+		<a href="" class="uk-slidenav uk-slidenav-next" data-uk-slideshow-item="next"></a>
+		<ul class="uk-dotnav uk-position-bottom uk-flex-center rb-text-default">
+			<li data-uk-slideshow-item="0"><a href=""></a></li>
+			<li data-uk-slideshow-item="1"><a href=""></a></li>
+		</ul>
 	</div>
 
 
