@@ -124,6 +124,10 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+#offcanvas {
+  z-index: 99999;
+}
+
 .rb-particles {
   max-width: 100vw;
   height: 89vh;
@@ -224,6 +228,10 @@ h6 {
   min-height: 1080px;
 }
 
+.fucking-awesome-shadow {
+  box-shadow: 0 1px 2px rgba(114, 121, 135, 0.25), 0 8px 14px rgba(114, 121, 135, 0.1) !important;
+}
+
 .rb-quick-circle {
   background-color: #00cc00;
   border-radius: 50%;
@@ -237,12 +245,11 @@ h6 {
 
 .rb-circle-panel {
   background-color: #fff;
-  box-shadow: 0 1px 2px rgba(114, 121, 135, 0.25), 0 8px 14px rgba(114, 121, 135, 0.1);
+  box-shadow: 0 1px 2px rgba(114, 121, 135, 0.25), 0 8px 14px rgba(114, 121, 135, 0.1) !important;
   transition: box-shadow 0.3s ease;
-}
-
-.rb-circle-panel:hover {
-  box-shadow: 0 8px 12px rgba(114, 121, 135, 0.2), 0 18px 24px rgba(114, 121, 135, 0.05);
+  /*	&:hover {
+		box-shadow: 0 8px 12px rgba(114, 121, 135, 0.2), 0 18px 24px rgba(114, 121, 135, 0.05);
+	} */
 }
 
 /*# sourceMappingURL=theme.rolfbjerre.css.map */

@@ -11,6 +11,7 @@
 
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
 	<base href="<?php echo $this->routeUrl('/')?>">
 
 	<title><?php echo $pageTitle; ?></title>
@@ -32,15 +33,25 @@
 		<?php require_once("layouts/footer.php"); ?>
 	</div>
 
-	<script type="application/javascript" src="/vendor/jquery/dist/jquery.min.js"></script>
-	<script type="application/javascript" src="/vendor/particles/particles.min.js"></script>
-	<script type="application/javascript" src="/assets/uikit/js/uikit.min.js"></script>
-	<script type="application/javascript" src="/assets/theme/js/javascript.js"></script>
+	<script async src="/vendor/jquery/dist/jquery.min.js"></script>
+	<script async src="/vendor/particles/particles.min.js"></script>
+	<script async src="/assets/uikit/js/uikit.min.js"></script>
+	<script async src="/assets/theme/js/javascript.js"></script>
 
-	<script type="application/javascript" src="/assets/uikit/js/components/sticky.min.js"></script>
+	<script src="/assets/uikit/js/components/sticky.min.js"></script>
 	<link rel="stylesheet" href="/assets/uikit/css/components/sticky.min.css" type="text/css">
-	<script type="application/javascript" src="/assets/uikit/js/components/accordion.min.js"></script>
+
+	<script src="/assets/uikit/js/components/accordion.min.js"></script>
 	<link rel="stylesheet" href="/assets/uikit/css/components/accordion.min.css" type="text/css">
+
+	<script src="/assets/uikit/js/components/slideshow.min.js"></script>
+	<link rel="stylesheet" href="/assets/uikit/css/components/slideshow.min.css" type="text/css">
+
+	<script src="/assets/uikit/js/components/slidenav.min.js"></script>
+	<link rel="stylesheet" href="/assets/uikit/css/components/slidenav.min.css" type="text/css">
+
+	<script src="/assets/uikit/js/components/dotnav.min.js"></script>
+	<link rel="stylesheet" href="/assets/uikit/css/components/dotnav.min.css" type="text/css">
 
 </body>
 </html>
