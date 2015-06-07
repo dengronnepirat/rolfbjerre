@@ -33,10 +33,10 @@
 		<?php require_once("layouts/footer.php"); ?>
 	</div>
 
-	<script async src="/vendor/jquery/dist/jquery.min.js"></script>
-	<script async src="/vendor/particles/particles.min.js"></script>
-	<script async src="/assets/uikit/js/uikit.min.js"></script>
-	<script async src="/assets/theme/js/javascript.js"></script>
+	<script src="/vendor/jquery/dist/jquery.min.js"></script>
+	<script src="/vendor/particles/particles.min.js"></script>
+	<script src="/assets/uikit/js/uikit.min.js"></script>
+	<script src="/assets/theme/js/javascript.js"></script>
 
 	<script src="/assets/uikit/js/components/sticky.min.js"></script>
 	<link rel="stylesheet" href="/assets/uikit/css/components/sticky.min.css" type="text/css">
