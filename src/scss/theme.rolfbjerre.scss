@@ -3,6 +3,11 @@
 @import "modules/particles";
 @import "modules/maerkesager";
 
+em {
+	color: #444 !important;
+
+}
+
 body {
 	background: $body-bg;
 
@@ -46,6 +51,12 @@ body {
 	color: #444;
 
 }
+
+.rb-height-viewport {
+	min-height: 100vh;
+
+}
+
 
 .rb-quick-circle {
 	background-color: darken($alternativet--green, 10);

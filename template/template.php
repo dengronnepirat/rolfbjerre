@@ -20,12 +20,12 @@
 
 </head>
 
-<body class="" data-cockpit-page="{page:'home'}">
+<body class="uk-height-1-1" data-cockpit-page="{page:'home'}">
 	<div id="header">
 		<?php require_once("layouts/header.php"); ?>
 	</div>
 
-	<div id="main">
+	<div id="main" class="rb-height-viewport">
 		<?php echo $content_for_layout;?>
 	</div>
 

@@ -4,9 +4,6 @@
 ?>
 <div class="uk-container uk-container-center uk-margin-large-top">
 
-	<?php region('Mærkesager') ?>
-
-	<br>
 
 	<h2>Mærkesager</h2>
 	<div class="uk-accordion rb-accordion" data-uk-accordion="{showfirst: false, clsactive: 'rb-maerkesager-minus'}">
