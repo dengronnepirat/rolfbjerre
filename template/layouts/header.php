@@ -6,7 +6,8 @@ $menu = array(
 				'Mærkesager',
 				/* 'Blog', */
 				'Om Rolf',
-				'Kontakt'
+				'Kontakt',
+				'Share With Care'
 			);
 
 
@@ -29,6 +30,7 @@ $menu = array(
 				<li class="rb-navbar-item"><a href="<?php echo $nameSlug; ?>"><?php echo $name; ?></a></li>
 
 			<?php endforeach;?>
+				<li class="rb-navbar-item"><a href="http://live.rolfbjerre.dk/">Live Politik</a></li>
 			</ul>
 			<ul class="uk-navbar-nav rb-navbar-nav uk-navbar-flip uk-hidden-large">
 				<li class="rb-navbar-toggle"><a href="#offcanvas" class="uk-navbar-toggle" data-uk-offcanvas></a></li>

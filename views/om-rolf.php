@@ -6,7 +6,6 @@
 
 	<?php region('Slideshow Facts') ?>
 
-	<?php region('Om Rolf'); ?>
 
 </div>
 
