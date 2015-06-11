@@ -6,8 +6,8 @@ $menu = array(
 				'Mærkesager',
 				/* 'Blog', */
 				'Om Rolf',
-				'Kontakt',
-				'Share With Care'
+				'Share With Care',
+				'Kontakt'
 			);
 
 

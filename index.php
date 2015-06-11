@@ -47,6 +47,15 @@ $app->bind("/om-rolf", function() use($app, $baseVars) {
 
 });
 
+$app->bind("/share-with-care", function() use($app, $baseVars) {
+
+
+	return $app->render('views/share-with-care.php with template/template.php', array_merge($baseVars, [
+
+	]));
+
+});
+
 $app->bind("/kontakt", function() use($app, $baseVars) {
 
 
