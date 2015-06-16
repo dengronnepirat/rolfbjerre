@@ -1,5 +1,7 @@
 <meta charset="utf-8">
-Husk at lave issues og fork!
+# Rolf Bjerre / Open-Source Website
+Dette er en officielle repo til ROlf Bjerre's hjemmeside. I er velkommen til at lave en masse forks og issues!
+
 
 
 <p align="center">
