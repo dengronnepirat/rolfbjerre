@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 # Rolf Bjerre / Open-Source Website
-Dette er den officielle repo til ROlf Bjerre's hjemmeside. I er velkommen til at lave en masse forks og issues!
+Dette er den officielle repo til Rolf Bjerre's hjemmeside. I er velkommen til at lave en masse forks og issues!
 
 
 
