@@ -21,12 +21,6 @@
 				E-mail: sisse.haynes@alternativet.dk<br>
 				Tlf: 2629 0550
 			</p>
-			<p>
-				Pressemedarbejder:<br>
-				Rasmus Schrøder Daugbjerg <br>
-				E-mail: rasmus.daugbjerg@gmail.com <br>
-				Tlf.: 5223 0621 <br>
-			</p>
 
 		</div>
 	</div>
